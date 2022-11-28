@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c71eb22d-9fa0-448e-a948-e6f2a5d870c9" name="Changes" comment="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una c lase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PracticaFinal" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="layoutResourceFile" />
+        <option value="navigationResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HpIsH6tzxEFOWzl5116ElF0vbv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omar_\AndroidStudioProjects\PracticaFinal\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.onc.practicafinal.model.repository.db" />
+      <recent name="com.onc.practicafinal.view.activities" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.onc.practicafinal.model.repository" />
+      <recent name="com.onc.practicafinal.model.entities" />
+    </key>
+    <key name="android.template.1499002454">
+      <recent name="com.onc.practicafinal.view.fragments" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="PracticaFinal.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\omar_\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c71eb22d-9fa0-448e-a948-e6f2a5d870c9" name="Changes" comment="" />
+      <created>1668975802274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668975802274</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC">
+      <created>1669527292614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669527292614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC">
+      <created>1669527865186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669527865186</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC">
+      <created>1669527959419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669527959419</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC">
+      <created>1669529819076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669529819076</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC">
+      <created>1669575464440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669575464440</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC">
+      <created>1669582100311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669582100311</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="9494eda4-221d-4d84-b2e1-1b2c75d259b3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="9494eda4-221d-4d84-b2e1-1b2c75d259b3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/app/src/main/java/com/onc/practicafinal" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Modulo 4, Proyecto Final: En el proyecto se crea  una lista de animales usando SQLite, el usuario puede agregar un nuevo item en la lista mediante el botón flotante de agregar, también si  se cuentan con registros en la base de datos, se puede seleccionar un elmento de la lista en el RecycleView y se abrirá un nuevo fragmento para visualizar del animal en mayor detalle, se puede  editar o eliminar dicho registro. Cuando se selecciona el botón editar (ícono de un disco flexible) se abrirá un nuevo fragmen con la posibilidad de cambiar toda la insformación del item; si selecciona el botón eliminar borrará el item; finalmente, el botón de flecha hacia la izquierda regresa ala fragment previo.&#10;&#10;Se emplearon los siguientes elementos en la implementación&#10;1. Se creo una clase SQLHelper como ayuda entre la vista y la base de datos SQLite, en ella se implmentan métodos para crear, obtener, actualizar, eliminar y agregar registros en la base de datos mediante una clase SQLHelper.&#10;2. Se crea la clase Animal, AnimalsRepository para guardar la información de cada registro en la base de datos y trabajar sobre la arqquitectura MVVM&#10;3. Se creó la clase AnimalListViewModel, continuando con la Arquitectura MVVM, se definió esta clase para ser un punto de intersección entre la vista y el modelo, en ella se definión un observador sobre la lista de animales con el elemento LiveData.&#10;4. En la parte de la vista se trabajó con RecycleView y se construyó su Adaptedor (AnimalAdapter) y su retenedor (AnimalViewHolde), sonde se incluyó la característica de ViewBinding.&#10;5. Se crearón varios diseños de íconos mediante elementos Drawables y se definierón algunas animaciones como cambiar el color al presionar el botón&#10;6. Se emplearon varios controles en cada vista como: TextView, EditText, Spinner, ViewCard, FloatButton, ImageView, DatePickerDialog&#10;   &#10; &#10;26/11/2022&#10;   &#10;Omar NC" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Práctica Final</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="descripcion">Descripción: </string>
+    <string name="sexo">Sexo: </string>
+    <string name="TipoHabitat">Tipo de Habitat: </string>
+    <string name="FechaIngreso">Fecha de Ingreso: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+

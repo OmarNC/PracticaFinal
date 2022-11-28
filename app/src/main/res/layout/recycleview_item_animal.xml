@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idCard"
+        app:cardElevation="7dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        app:contentPadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:src="@drawable/dog_48px"
+                android:layout_width="80sp"
+                android:layout_height="80dp"/>
+            <TextView
+                android:id="@+id/tvId"
+                android:text="@{Integer.toString(animal.id)}"
+                tools:text = "ID"
+                android:textSize="20sp"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_toEndOf="@id/imgFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvNombre"
+                android:text="@{animal.nombre}"
+                tools:text = "Nombre"
+                android:textColor="@color/orange"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_toEndOf="@id/tvId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:text="@{animal.descripcion}"
+                tools:text = "Descripción"
+                android:textSize="20sp"
+                android:textColor="@color/gray_ligth"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvId"
+                android:layout_toEndOf="@id/imgFoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
